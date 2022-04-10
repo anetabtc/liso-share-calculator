@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="/js/index.js" type="module"></script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="background">
+    <img src="/images/anetaBTC_logo.png" alt="aneta-png" id="aneta-png">
+    <div id="usage">
+      <h2>Welcome to the LISO share calculator v0.1!</h2>
+      <h3>How to use:</h3>
+      <p>Enter a valid cardano or ergo address or your total amount of
+        Neta on both chains than press calculate.
+      </p>
+      <p>The calculator than returns your share in the community fund
+        based on your holdings.
+      </p>
+      <p>For more information check out the github <a href="">README</a></p>
+    </div>
+    <div id="container">
+      <div id="liso-form">
+        <form name="Liso">
+          <input type="text" name="amountOrAddress" id="input-field" placeholder="Enter your neta holdings or an address">
+          <input type="submit" value="calculate" id="submit-btn">
+        </form>
+      </div>
+      <div id="share">Your LISO share: -</div>
+    </div>
+  </div>
+  
+  
+  
+</body>
+</html>
