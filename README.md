@@ -1,6 +1,6 @@
 # LISO share calculator v0.1
 
-## Please take note that this is still a v0.1 so there could be bugs and unexpected errors. Any kind of feedback is appriciated.
+## Please take note that this is still a v0.1 so there could be bugs and unexpected errors. Any kind of feedback is appreciated.
 
 ## Usage:
 * Enter a valid cardano address
